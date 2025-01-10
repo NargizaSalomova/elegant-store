@@ -1,0 +1,64 @@
+.header {
+	background-color: #ffc95c;
+	padding: 18px 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	@include mobile {
+		padding: 16px 0;
+		position: relative;
+	}
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	position: relative;
+}
+
+.header__btn-mobile-nav {
+	display: none;
+
+	@include mobile {
+		display: block;
+		height: 24px;
+	}
+}
+
+.header__btns {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	&--active{
+		@include mobile {
+			display: none;
+		}
+	}
+
+}
+
+.header__btn {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.header__bag-counter {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: var(--yellow);
+
+	background-color: var(--neutral-07-1000);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}

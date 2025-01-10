@@ -1,0 +1,50 @@
+.btn {
+	border-radius: 8px;
+	display: inline-block;
+
+	padding: 12px 56px;
+	background-color: var(--neutral-07-1000);
+
+	font-family: var(--font-main);
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 178%;
+	letter-spacing: -0.02em;
+	text-align: center;
+	transition: all 0.2s ease-in;
+
+	@include mobile {
+		font-size: 14px;
+		line-height: 171%;
+	}
+
+	&--small {
+		padding: 9px 40px;
+
+
+		font-size: 16px;
+		line-height: 175%;
+		letter-spacing: -0.03em;
+		text-align: center;
+		color: var(--neutral-01-1000);
+
+		@include mobile {
+			padding: 6px 40px;
+
+			font-size: 14px;
+			line-height: 171%;
+		}
+	}
+
+	&--wide {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	&:hover {
+		opacity: 0.9;
+	}
+}

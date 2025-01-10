@@ -1,0 +1,28 @@
+.headline-4 {
+	font-family: var(--font-accent);
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 110%;
+	letter-spacing: -0.01em;
+	color: var(--brand-color);
+
+	@include mobile {
+		font-size: 34px;
+		line-height: 112%;
+		letter-spacing: -0.02em;
+	}
+}
+
+.headline-5 {
+	font-family: var(--font-accent);
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 112%;
+	letter-spacing: -0.02em;
+	color: #121212;
+
+
+	@include tablet {
+		font-size: 28px;
+	}
+}

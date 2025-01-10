@@ -1,0 +1,126 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 24px;
+	height: 24px;
+
+	transition: all 0.2s ease-in;
+}
+
+.icon--ticket-percent {
+	width: 20px;
+	height: 18px;
+	fill: var(--neutral-01-1000);
+}
+
+.icon--arrow-right {
+	stroke: var(--yellow);
+	width: 18px;
+	height: 18px;
+}
+
+.icon--close {
+	fill: var(--neutral-05-1000);
+	width: 20px;
+	height: 20px;
+
+	&:hover {
+		fill: var(--neutral-01-1000);
+	}
+}
+
+.icon--arrow-down {
+	stroke: var(--neutral-07-1000);
+	width: 18px;
+	height: 18px;
+}
+
+.icon--search {
+	stroke: var(--neutral-07-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+
+	@include mobile {
+		display: none;
+	}
+}
+
+.icon--user {
+	stroke: var(--neutral-07-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+
+	@include mobile {
+		display: none;
+	}
+}
+
+.icon--shopping-bag {
+	stroke: var(--neutral-07-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+}
+
+.icon--star {
+	fill: var(--neutral-05-1000);
+}
+
+.icon--fav {
+	fill: var(--neutral-04-1000);
+	width: 18px;
+	height: 15px;
+}
+
+.icon--shipping {
+	stroke: var(--neutral-07-1000);
+	width: 48px;
+	height: 48px;
+}
+
+.icon--email {
+	fill: #121212;
+}
+
+.icon--instagram {
+	stroke:  var(--neutral-01-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+}
+
+.icon--facebook{
+	stroke:  var(--neutral-01-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+}
+
+.icon--youtube {
+	stroke:  var(--neutral-01-1000);
+
+	&:hover {
+		stroke: var(--neutral-04-1000);
+	}
+}
+
+.icon--burger-open {
+	stroke: var(--neutral-07-1000);
+}
+
+.icon--burger-close {
+	fill: var(--neutral-04-1000);
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"img": "shipping",
+		"title": "Free Shipping",
+		"text": "Order above $200"
+	},
+	{
+		"img": "finance",
+		"title": "Money-back",
+		"text": "30 days guarantee"
+	},
+	{
+		"img": "lock",
+		"title": "Secure&nbsp;Payments",
+		"text": "Secured by Stripe"
+	},
+	{
+		"img": "call",
+		"title": "24/7 Support",
+		"text": "Phone and Email support"
+	}
+]

@@ -1,0 +1,55 @@
+:root {
+	--container-width: 1184px;
+	--container-padding: 32px;
+
+	--font-main: 'Inter', sans-serif;
+	--font-accent: 'Poppins', sans-serif;
+	--font-nav: 'Space Grotesk', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--link-color: #2578c8;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+	// Colors
+
+	--blue: #377dff;
+	--green: #38cb89;
+	--yellow: #ffab00;
+	--red: #ff5630;
+	--brand-color: #000;
+	--neutral-01-1000: #fefefe;
+	--neutral-01-950: rgba(254, 254, 254, 0.95);
+	--neutral-01-200: rgba(254, 254, 254, 0.2);
+	--neutral-01-100: rgba(254, 254, 254, 0.1);
+	--neutral-02-1000: #f3f5f7;
+	--neutral-02-500: rgba(243, 245, 247, 0.5);
+	--neutral-03-1000: #e8ecef;
+	--neutral-03-750: rgba(232, 236, 239, 0.75);
+	--neutral-03-500: rgba(232, 236, 239, 0.5);
+	--neutral-04-1000: #6c7275;
+	--neutral-04-750: rgba(108, 114, 117, 0.75);
+	--neutral-04-500: rgba(108, 114, 117, 0.5);
+	--neutral-04-250: rgba(108, 114, 117, 0.25);
+	--neutral-04-150: rgba(108, 114, 117, 0.15);
+	--neutral-05-1000: #343839;
+	--neutral-05-500: rgba(52, 56, 57, 0.5);
+	--neutral-06-1000: #232627;
+	--neutral-06-950: rgba(35, 38, 39, 0.95);
+	--neutral-06-900: rgba(35, 38, 39, 0.9);
+	--neutral-06-500: rgba(35, 38, 39, 0.5);
+	--neutral-07-1000: #141718;
+	--neutral-07-950: rgba(20, 23, 24, 0.95);
+	--neutral-07-500: rgba(20, 23, 24, 0.5);
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

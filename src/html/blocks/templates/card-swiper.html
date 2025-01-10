@@ -1,0 +1,41 @@
+<div class="swiper-slide">
+	<article class="card">
+		<div class="card__picture">
+
+			<img src="./../../../img/arrivals/@@img" alt="headphones">
+
+			<div class="card__new">@@status</div>
+
+			<div class="card__fav">
+				<button class="btn__fav ">
+					<svg class="icon icon--fav">
+						<use href="./img/svgsprite/sprite.symbol.svg#fav"></use>
+					</svg>
+				</button>
+			</div>
+
+			<div class="card__btn">
+				<button class="btn btn--small btn--wide">Add to cart</button>
+			</div>
+
+		</div>
+
+		<div class="card__desc">
+
+			<div class="card__rating">
+
+				@@for(let i = 0; i < context.rating; i++){ <svg class="icon icon--star">
+					<use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+					</svg>
+					}
+
+			</div>
+
+			<div class="card__title">@@title</div>
+			<div class="card__price">$@@price</div>
+		</div>
+
+		<a href="#!" class="card__link"></a>
+
+	</article>
+</div>
