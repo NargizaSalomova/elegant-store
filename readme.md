@@ -5,5 +5,5 @@
 - Gulp,
 - JS
 
-[Смотреть демо](https://user.github.io/repo/)
+[Смотреть демо](https://nargizasalomova.github.io/elegant-store/)
 
